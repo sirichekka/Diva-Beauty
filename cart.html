@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f4ec">
+  <title>Your shopping cart | Diva Beauty Product</title><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body data-page="cart">
+  <div class="announcement">A little ritual, a lot of radiance · Complimentary delivery over $50</div>
+  <header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">D</span><span class="brand-copy"><strong>Diva Beauty</strong><small>Product · Feel good daily</small></span></a><nav class="nav" data-main-nav aria-label="Main navigation"><a href="index.html#about">Our story</a><a href="index.html#shop">Shop</a><a href="cart.html" aria-current="page">Cart</a><a href="account.html">Account</a><a href="admin.html">Admin</a></nav><div class="header-actions"><a class="icon-button" href="cart.html" aria-label="Shopping cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span class="cart-count" data-cart-count>0</span></a><button class="icon-button menu-toggle" type="button" data-menu-toggle aria-label="Toggle navigation" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></div></header>
+  <main class="page-main wrap"><div class="page-heading"><div><span class="eyebrow">Your picks</span><h1>Your shopping cart</h1></div><p id="cartCountText">Your selected products, all in one place.</p></div>
+    <div class="cart-layout"><section aria-label="Selected products"><div id="cartContents"></div><div class="empty-state" id="emptyCart" hidden><h2>Your bag is taking a little break.</h2><p>Find a new favorite to add to your routine.</p><a class="button" href="index.html#shop">Explore products</a></div></section>
+      <aside class="summary" aria-labelledby="summaryTitle"><h2 id="summaryTitle">Order summary</h2><div class="summary-row"><span>Items</span><strong id="itemCount">0</strong></div><div class="summary-row total"><span>Total price</span><strong id="cartTotal">$0.00</strong></div><p class="summary-note">Shipping and payment are not included in this demo.</p><form id="checkoutSection" hidden><div class="field"><label for="orderName">Your name</label><input id="orderName" name="customer" autocomplete="name" required placeholder="Your name"></div><div class="field"><label for="orderEmail">Email</label><input id="orderEmail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><button class="button" type="submit">Place demo order</button></form><a class="continue-link" href="index.html#shop">Continue shopping</a></aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">D</span><span class="brand-copy"><strong>Diva Beauty</strong><small>Product · Feel good daily</small></span></a><span class="footer-note">© <span data-year></span> Diva Beauty Product</span><div class="footer-links"><a href="account.html">Account</a><a href="admin.html">Admin</a></div></div></footer>
+</body>
+</html>
